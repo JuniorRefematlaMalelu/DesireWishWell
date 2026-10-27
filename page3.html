@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Motivation 💌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="floating-hearts">💗 🤍 🌸 ♡ 🌷 💕</div>
+
+    <main class="welcome-card">
+        <p class="little-title">♡ A REMINDER FROM YOUR BESTIE ♡</p>
+
+        <h1>You Got This! 💗</h1>
+
+        <div class="photo-frame">
+            <img src="intro1.jpeg"
+                 alt="A beautiful picture of you">
+        </div>
+
+        <h2 id="personalGreeting">Listen here, handsome! 😂</h2>
+
+        <div class="message">
+            <p>
+                ❤️ Remember that you are not only doing this
+                for yourself, but also for your family —
+                and most especially your mom.
+            </p>
+
+            <p>
+                🎓 Remember to <strong>KNACK IT!</strong>
+                because we want that bursary next year!
+                We are claiming it! 💸🙏🏽
+            </p>
+
+            <p>
+                💍 Remember the marriage and lobola you must
+                pay for your educated, virgin wife-to-be. 😂
+            </p>
+
+            <p>
+                👨‍👩‍👧‍👦 Remember how expensive she and your
+                future kids are going to be!
+            </p>
+
+            <p>
+                😂 So please, my guy, go and study.
+                We have a whole future to finance!
+            </p>
+        </div>
+
+        <p class="question">
+            Make your mom proud. Make yourself proud.
+            Your future is waiting for you. 🥹❤️
+        </p>
+
+        <button onclick="goToFinalPage()">
+            One more thing... 💌
+        </button>
+
+        <p class="footer">
+            🌸 Your personal cheerleader believes in you! 🌸
+        </p>
+
+        <a class="back-link" href="page2.html">
+            ← Go back
+        </a>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("personalGreeting").textContent =
+            "Listen here, " + getBestieName() + "! 😂💗";
+
+        function goToFinalPage() {
+            window.location.href = "page4.html";
+        }
+    </script>
+
+</body>
+</html>

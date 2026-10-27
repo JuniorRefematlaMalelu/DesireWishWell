@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You Ready? 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="floating-hearts">💗 🤍 🌸 ♡ 🌷 💕</div>
+
+    <main class="welcome-card">
+        <p class="little-title">♡ EXAM SEASON ♡</p>
+
+        <h1>Hey, <span id="hisName">handsome</span>! 🥹💗</h1>
+
+        <p class="intro">
+            Okay, my favourite person...
+            We need to talk. 😂
+        </p>
+
+        <h2>Are you ready for exams? 👀📚</h2>
+
+        <p class="question">
+            Be honest! How are we feeling?
+        </p>
+
+        <div class="button-group">
+            <button onclick="goNext()">
+                Yes, I'm ready! 💪🏽
+            </button>
+
+            <button onclick="goNext()">
+                VERY READY! 😤🔥
+            </button>
+        </div>
+
+        <p class="footer">
+            Don't worry, both answers are correct. 😂💕
+        </p>
+
+        <a class="back-link" href="index.html">
+            ← Go back
+        </a>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("hisName").textContent = getBestieName();
+
+        function goNext() {
+            window.location.href = "page3.html";
+        }
+    </script>
+
+</body>
+</html>
